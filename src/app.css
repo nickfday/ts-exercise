@@ -1,0 +1,42 @@
+#app {
+  display: flex;
+}
+
+.aside {
+  width: 30%;
+  border-right: 1px solid black;
+}
+
+.main {
+  padding: 20px;
+}
+
+.applications-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.application-item {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+#navigation li {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+#filters {
+  padding: 1rem;
+}
+
+input[type='range'] {
+  width: 100%;
+}
+
+.spend-labels {
+  display: flex;
+  justify-content: space-between;
+}
